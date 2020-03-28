@@ -20,7 +20,6 @@ app.get('/', (req, res) => res.render('layout'));
 app.get('/beers', (req, res) => {
     punkAPI.getBeers()
     .then(beer => res.render('beers', {beer}))
-    //   .catch(error => console.log(error)); not sure if I need to add it here
   });
 
 app.get('/random-beer', (req, res) => {
