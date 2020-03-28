@@ -1,7 +1,14 @@
-/*
-white: #f7f9f9;
-light-blue: #2081c3;
-dark-blue: #0a2c42;
+
+/*white: #f7f9f9;*/
+
+nav {
+    background-color:lightblue;
+    height: 60px;
+}
+.btn{
+    background-color: lightblue;
+}
+/*dark-blue: #0a2c42;
 grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+font-family: Arial, Helvetica, sans-serif;*/
+
